@@ -1,0 +1,150 @@
+
+body{
+  position: absolute;
+  animation-name: background-change;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+#text{
+  font-size: 150px;
+  color: white;
+
+}
+
+.hbridge {
+  height: 500px;
+  width: 100px;
+  background-color: black;
+  -webkit-animation: circle 4s infinite;
+ animation: circle 4s infinite;
+}
+.bridge{
+  height: 50px;
+  width: 350px;
+  background-color: black;
+  left: 100px;
+  margin-bottom: 150px;
+  -webkit-animation: circle 4s infinite;
+ animation: circle 4s infinite;
+}
+.o{
+  height: 500px;
+  width: 350px;
+  background-color: black;
+  -webkit-animation: circle 4s infinite;
+ animation: circle 4s infinite;
+}
+
+.tops{
+  height: 50px;
+  width: 350px;
+  background-color: black;
+  left: 100px;
+  margin-top: 150px;
+  -webkit-animation: circle 4s infinite;
+ animation: circle 4s infinite;
+}
+
+.sbridge {
+  height: 250px;
+  width: 100px;
+  background-color: black;
+  -webkit-animation: circle 4s infinite;
+ animation: circle 4s infinite;
+}
+
+.sflat{
+  height: 50px;
+  width: 350px;
+  background-color: black;
+  left: 100px;
+  -webkit-animation: circle 4s infinite;
+ animation: circle 4s infinite;
+}
+
+.rightbridge {
+  margin-left: 250px;
+  height: 250px;
+  width: 100px;
+  background-color: black;
+  -webkit-animation: circle 4s infinite;
+ animation: circle 4s infinite;
+}
+
+.bottomflat{
+  height: 50px;
+  width: 350px;
+  background-color: black;
+  left: 100px;
+  margin-bottom: 150px;
+  -webkit-animation: circle 4s infinite;
+ animation: circle 4s infinite;
+}
+
+
+
+
+
+.eflat{
+  height: 50px;
+  width: 350px;
+  background-color: black;
+  left: 100px;
+  -webkit-animation: circle 4s infinite;
+ animation: circle 4s infinite;
+}
+
+.etop{
+  margin-right: 50px;
+  height: 250px;
+  width: 100px;
+  background-color: black;
+  -webkit-animation: circle 4s infinite;
+ animation: circle 4s infinite;
+}
+
+.eleft{
+  height: 50px;
+  width: 350px;
+  background-color: black;
+  left: 100px;
+  -webkit-animation: circle 4s infinite;
+ animation: circle 4s infinite;
+}
+
+.ebridge {
+
+  height: 250px;
+  width: 100px;
+  background-color: black;
+  -webkit-animation: circle 4s infinite;
+ animation: circle 4s infinite;
+}
+
+.ebottomflat{
+  height: 50px;
+  width: 350px;
+  background-color: black;
+  left: 100px;
+  -webkit-animation: circle 4s infinite;
+ animation: circle 4s infinite;
+}
+
+@-webkit-keyframes circle {
+    0%   {border: 2px solid orange; }
+    25%  {border: 2px solid red; }
+    50%  {border: 2px solid yellow; }
+    75%  {border: 2px solid orange; }
+    100% {border: 2px solid orange; }
+}
+
+@keyframes background-change{
+
+    from{background-color: 	#000000;
+
+    }
+    to{background-color: #	#FFFFFF;
+
+    }
+  }
